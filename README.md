@@ -10,6 +10,7 @@ Each folder contains two subfolders, one for the instances, called "Instances". 
 The code used to create the instances and the solutions are available in the file "instance_generator.jl".
 
 The parameters used for the instance generation are
+-- Euclidean distance
 
 -- number of vertices in each instance 
 
@@ -27,3 +28,5 @@ The parameters used for the instance generation are
 The instances are named as: "distance_frequency_sizeXX_instanceYY.dat", where XX is the number of vertices in the instance and YY is the numeration of instance. 
 
 Instances are represented by the set of distances of each pair of the vertices in the problem. Since a distance may appears more than once, the data about how many times it appears (multiplicity) is presented in the instance. Each instance contains two columns, one for the multiplicity (left) and one for the value of the distance (right).
+
+*** Since the distance D(i,j) = D(j,i), the number of distance in the instance is given by  #distance = (n X n-1)/2. 
