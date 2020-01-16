@@ -29,4 +29,4 @@ The instances are named as: "distance_frequency_sizeXX_instanceYY.dat", where XX
 
 Instances are represented by the set of distances of each pair of the vertices in the problem. Since a distance may appears more than once, the data about how many times it appears (multiplicity) is presented in the instance. Each instance contains two columns, one for the multiplicity (left) and one for the value of the distance (right).
 
-*** Since the distance D(i,j) = D(j,i), the number of distance in the instance is given by  #distance = (n X n-1)/2. 
+*** Since the distance D(i,j) = D(j,i), the number of distance in the instance is given by  #distance = (n X n-1)/2, where nis the number of vertices in the instance. 
