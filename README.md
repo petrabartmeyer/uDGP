@@ -12,8 +12,13 @@ The code used to create the instances and the solutions are available in the fil
 The parameters used for the instance generation are
 
 -- number of vertices in each instance 
--- number of instance to be created t = 10 # number of instances for each number of atom
+
+-- number of instance to be created
+
 -- atoms distance
+
 -- maximum distance between two atoms
+
 -- consecutive atom angle (1.91)
+
 -- torsional angle possibilities (1.0472 3.14159 5.23599 or 60, 180 and 300 degrees )
