@@ -22,3 +22,8 @@ The parameters used for the instance generation are
 -- consecutive atom angle (1.91)
 
 -- torsional angle possibilities (1.0472 3.14159 5.23599 or 60, 180 and 300 degrees )
+
+
+The instances are named as: "distance_frequency_sizeXX_instanceYY.dat", where XX is the number of vertices in the instance and YY is the numeration of instance. 
+
+Instances are represented by the set of distances of each pair of the vertices in the problem. Since a distance may appears more than once, the data about how many times it appears (multiplicity) is presented in the instance. Each instance contains two columns, one for the multiplicity (left) and one for the value of the distance (right).
