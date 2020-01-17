@@ -16,7 +16,7 @@ The parameters used for the instance generation are
 
 -- number of instance to be created
 
--- atoms distance
+-- atoms distance (1.526)
 
 -- maximum distance between two atoms
 
